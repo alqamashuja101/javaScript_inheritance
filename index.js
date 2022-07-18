@@ -12,3 +12,7 @@ class Person {
 
 let p1 = new Person("Ali", 30, 3456);
 console.log(p1.name);
+
+let p2 = new Person();
+p2.name = "Usama";
+console.log(p2);
